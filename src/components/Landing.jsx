@@ -16,17 +16,17 @@ export default function Landing() {
               non-disclosure.
             </p>
             <div className="buttons w-full flex flex-col md:justify-between md:flex-row items-center sm">
-              <button className="capitalize mx-2 my-2 px-12 py-3 w-72 lg:w-56 xl:w-72 font-bold text-sm rounded-3xl bg-emerald-300 ">
+              <button className="capitalize mx-2 my-2 px-12 py-4 w-80 lg:w-56 xl:w-72 font-bold text-sm rounded-full bg-emerald-300 ">
                 buy template
               </button>
-              <button className="capitalize mx-2 my-2 px-12 py-3 w-72 lg:w-56 xl:w-72 font-bold text-sm text-white border-2 rounded-3xl border-white hover:bg-white hover:text-[rgb(10,38,64)] duration-300">
+              <button className="capitalize mx-2 my-2 px-12 py-4 w-80 lg:w-56 xl:w-72 font-bold text-sm text-white border-2 rounded-full border-white hover:bg-white hover:text-[rgb(10,38,64)] duration-300">
                 explore
               </button>
             </div>
           </div>
-          <div className="sm:w-1/3">
+          <div>
             <img
-              className="m-auto w-80 sm:w-fit"
+              className="m-auto w-80 sm:w-[450px]"
               src="/src/assets/img/hero/hero-graphics.png"
               alt=""
             />
