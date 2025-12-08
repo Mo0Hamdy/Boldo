@@ -9,6 +9,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState, useEffect } from "react";
+import img from "../assets/img/Logo.png";
 
 const navigation = [
   { name: "home", href: "home", current: true },
@@ -94,7 +95,7 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="/src\assets\img\Logo.png"
+                src={img}
                 className="h-auto w-40 cursor-pointer"
               />
             </div>
