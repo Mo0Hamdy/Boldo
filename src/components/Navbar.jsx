@@ -96,6 +96,7 @@ export default function Navbar() {
               <img
                 alt="Your Company"
                 src={img}
+
                 className="h-auto w-40 cursor-pointer"
               />
             </div>
