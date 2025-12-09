@@ -1,5 +1,6 @@
 import "/src/App.css";
 import Navbar from "./Navbar";
+import img from "../assets/img/hero/hero-graphics.png"
 export default function Landing() {
   return (
     <div className="h-screen lg:h-5/6">
@@ -27,7 +28,7 @@ export default function Landing() {
           <div>
             <img
               className="m-auto w-80 sm:w-[450px]"
-              src="/src/assets/img/hero/hero-graphics.png"
+              src={img}
               alt=""
             />
           </div>
