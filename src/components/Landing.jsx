@@ -29,7 +29,7 @@ export default function Landing() {
             <img
               className="m-auto w-80 sm:w-[450px]"
               src={img}
-              alt=""
+              alt="hero graphics"
             />
           </div>
         </div>
