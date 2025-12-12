@@ -51,9 +51,9 @@ export default function AccordionUsage() {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div className="container m-auto py-20 px-3">
+    <div className="container m-auto py-10 md:py-20 px-3">
       <img src={img} alt="" />
-      <div className="flex flex-col md:flex-row py-20 items-center gap:5 lg:gap-10">
+      <div className="flex flex-col md:flex-row py-10 md:py-20 items-center gap:5 lg:gap-10">
         <h2 className="text-3xl md:text-3xl w-full md:w-1/2">
           We connect our customers with the best, and help them keep up-and stay
           open.
