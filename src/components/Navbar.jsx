@@ -74,7 +74,6 @@ export default function Navbar() {
         const newOpacity = 1;
         setOpacity(newOpacity);
       }
-      console.log(opacity);
     }
     window.addEventListener("scroll", calculate);
     return () => window.removeEventListener("scroll", calculate);

@@ -6,7 +6,7 @@ export default function Landing() {
     <div className="h-screen lg:h-5/6">
       <Navbar />
       <div className="Landing h-full w-full flex justify-center items-center py-10">
-        <div className="w-screen h-100 flex justify-evenly items-center flex-col lg:flex-row top-8 relative">
+        <div className="w-screen flex justify-evenly items-center flex-col lg:flex-row top-8 relative">
           <div className="text flex flex-col items-center w-full md:w-4/5 lg:w-2/5 px-6 my-10">
             <h2 className="text-white lg:text-start font-medium text-center text-4xl lg:text-3xl xl:text-5xl">
               Save time by building fast with Boldo Template

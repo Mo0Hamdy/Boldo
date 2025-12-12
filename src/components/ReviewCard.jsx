@@ -28,11 +28,15 @@ export default function ReviewCard() {
     return (
       <div
         key={index}
-        className="bg-white mx-5 w-[370px] h-[400px] flex flex-col items-start justify-between p-14 rounded-xl"
+        className="bg-white md:mx-5 w-full md:w-[370px] flex-shrink-0 h-[400px] flex flex-col items-start justify-between p-14 rounded-xl"
       >
         <p className="text-2xl">{item.text}</p>
         <div className="flex justify-between">
-          <img className="me-4" src={item.img} alt="" />
+          <img
+            className="me-4 hover:scale-[1.1] overflow-hidden duration-500"
+            src={item.img}
+            alt=""
+          />
           <div>
             <h4 className="font-bold">{item.author}</h4>
             <h6 className="text-sm">{item.position}</h6>
@@ -41,5 +45,5 @@ export default function ReviewCard() {
       </div>
     );
   });
-  return <div className="flex overflow-hidden my-10">{card}</div>;
+  return <div className="flex justify-center overflow-hidden mt-5">{card}</div>;
 }

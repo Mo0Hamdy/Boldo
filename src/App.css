@@ -8,39 +8,6 @@ body {
   height: 9000px;
 }
 
-/* apply to everything */
-/* html, body, * {
-  --sb-track-color: #00b0ff;
-  --sb-thumb-color: #6BAF8D;
-  --sb-size: 4px;
-} */
-
-/* webkit */
-/* html::-webkit-scrollbar,
-body::-webkit-scrollbar,
-*::-webkit-scrollbar {
-  width: var(--sb-size);
-}
-
-html::-webkit-scrollbar-track,
-body::-webkit-scrollbar-track,
-*::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-}
-
-html::-webkit-scrollbar-thumb,
-body::-webkit-scrollbar-thumb,
-*::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  border-radius: 5px;
-}
-
-@supports not selector(::-webkit-scrollbar) {
-  html, body, * {
-    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-  }
-} */
-
 .Landing {
   background-color: #0a2640;
   background-image: url(/src/assets/img/hero/hero-bg.png);

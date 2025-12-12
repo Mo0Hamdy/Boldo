@@ -7,8 +7,8 @@ import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 export default function MoreServices() {
   return (
     <div>
-      <div className="container m-auto flex flex-col lg:flex-row justify-center lg:items-center items-start pb-20 px-3">
-        <div className="w-full md:w-1/2 px-3 flex justify-center">
+      <div className="container m-auto flex flex-col lg:flex-row justify-center md:items-center items-start pb-20 px-3">
+        <div className="w-full md:w-1/2  px-3 flex justify-center">
           <img src={img1} />
         </div>
         <div className="textContent w-full lg:w-1/2 flex flex-col items-start">
@@ -17,21 +17,21 @@ export default function MoreServices() {
             stay open.
           </h2>
           <ul className="pb-3">
-            <li className="py-2 my-3 text-2xl leading-relaxed flex items-center">
+            <li className="py-2 my-3 text-2xl md:leading-relaxed flex items-center">
               <CheckCircleIcon
                 style={{ fontSize: "30px" }}
                 className="text-[rgb(10,38,64)] me-3"
               />{" "}
               <span> We connect our customers with the best.</span>
             </li>
-            <li className="py-2 my-3 text-2xl leading-relaxed flex items-center">
+            <li className="py-2 my-3 text-2xl md:leading-relaxed flex items-center">
               <CheckCircleIcon
                 style={{ fontSize: "30px" }}
                 className="text-[rgb(10,38,64)] me-3"
               />{" "}
               <span>Advisor success customer launch party.</span>
             </li>
-            <li className="py-2 my-3 text-2xl leading-relaxed flex items-center">
+            <li className="py-2 my-3 text-2xl md:leading-relaxed flex items-center">
               <CheckCircleIcon
                 style={{ fontSize: "30px" }}
                 className="text-[rgb(10,38,64)] me-3"
