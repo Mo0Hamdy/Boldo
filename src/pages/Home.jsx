@@ -4,6 +4,7 @@ import MoreServices from "../components/MoreServices";
 import Pagination from "../components/Pagination";
 import AccordionUsage from "../components/Accordion";
 import Blog from "../components/Blog";
+import Contact from "../components/Contact";
 export default function Home() {
   return (
     <div className="h-screen">
@@ -13,6 +14,7 @@ export default function Home() {
       <Pagination />
       <AccordionUsage />
       <Blog />
+      <Contact />
     </div>
   );
 }
