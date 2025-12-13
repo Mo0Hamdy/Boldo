@@ -1,7 +1,8 @@
 import img from "../assets/img/promo/promo-bg.png";
+import img2 from "../assets/img/black-logo.png";
 export default function Contact() {
   return (
-    <div className="container m-auto py-20">
+    <div className="container m-auto pt-20 sm:px-3">
       <div
         style={{
           backgroundImage: `url(${img})`,
@@ -25,6 +26,66 @@ export default function Contact() {
           </button>
         </div>
       </div>
+      <footer className="mt-20 flex flex-col md:flex-row align-start justify-between px-2">
+        <div className="md:w-1/2">
+          <img src={img2} alt="" />
+          <p className="my-10 text-gray-500">
+            Social media validation business model canvas graphical user
+            interface launch party creative facebook iPad twitter.
+          </p>
+        </div>
+        <div className="grid grid-cols-3 gap-3">
+          <div className="one">
+            <h5 className="text-xl font-bold">Landings</h5>
+            <ul>
+              <li className="text-gray-500 my-4">
+                <a href="#">Home</a>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Products</a>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div className="two">
+            <h5 className="text-xl font-bold">Company</h5>
+            <ul>
+              <li className="text-gray-500 my-4">
+                <a href="#">Home</a>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Careers</a>
+                <span className="bg-emerald-300 text-black mx-1 p-2 font-bold rounded-full">
+                  Hiring!
+                </span>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Services</a>
+              </li>
+            </ul>
+          </div>
+          <div className="three">
+            <h5 className="text-xl font-bold">Resources</h5>
+            <ul>
+              <li className="text-gray-500 my-4">
+                <a href="#">Home</a>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Products</a>
+              </li>
+              <li className="text-gray-500 my-4">
+                <a href="#">Services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+          </footer>
+          <span className="capitalize py-5 text-center w-full block text-white bg-[rgb(10,38,63)] ">
+          all rights reserved &copy; <span className="text-emerald-300">mohamed hamdy</span>
+        </span>
     </div>
   );
 }
