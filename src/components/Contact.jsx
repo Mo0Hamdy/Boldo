@@ -26,7 +26,7 @@ export default function Contact() {
           </button>
         </div>
       </div>
-      <footer className="mt-20 flex flex-col md:flex-row align-start justify-between px-2">
+      <footer className="mt-20 flex flex-col md:gap-10 md:flex-row align-start justify-between px-2">
         <div className="md:w-1/2">
           <img src={img2} alt="" />
           <p className="my-10 text-gray-500">
@@ -34,7 +34,7 @@ export default function Contact() {
             interface launch party creative facebook iPad twitter.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 md:w-1/2 gap-3">
           <div className="one">
             <h5 className="text-xl font-bold">Landings</h5>
             <ul>
@@ -83,9 +83,7 @@ export default function Contact() {
         </div>
         
           </footer>
-          <span className="capitalize py-5 text-center w-full block text-white bg-[rgb(10,38,63)] ">
-          all rights reserved &copy; <span className="text-emerald-300">mohamed hamdy</span>
-        </span>
+         
     </div>
   );
 }

@@ -15,6 +15,9 @@ export default function Home() {
       <AccordionUsage />
       <Blog />
       <Contact />
+       <span className="capitalize py-5 text-center w-full block text-white bg-[rgb(10,38,63)] ">
+          all rights reserved &copy; <span className="text-emerald-300">mohamed hamdy</span>
+        </span>
     </div>
   );
 }
