@@ -18,7 +18,7 @@ export default function Contact() {
           <input
             type="email"
             placeholder="Your email address"
-            className="px-7 py-4 rounded-full w-full lg:w-3/5 placeholder:text-black placeholder:text-xl"
+            className="px-7 py-4 rounded-full w-full lg:w-3/5 placeholder:text-black placeholder:text-xl focus:outline-none"
           />
           <button className="rounded-full hover:bg-emerald-200 transition-all duration-300 bg-emerald-300 text-[rgb(10,38,64)] text-xl px-7 py-4 font-bold mt-3">
             Start now
